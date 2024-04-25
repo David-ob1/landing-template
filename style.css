@@ -94,4 +94,164 @@ img{
     color: #ff5d5d;
     font-weight: 600;
     margin-bottom: 15px;
+    display: block;
+}
+
+.header-txt h1 {
+    font-size:  70px;
+    line-height:  1;
+    color: #000D83;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-bottom: 15px;
+
+}
+
+p{
+    font-size: 18px;
+    color: #2C39AA;
+    margin-bottom: 50px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 14px 25px;
+    background: #000D83;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(33, 40, 105, 0.2);
+
+}
+
+.header-img{
+    flex-basis:50%;
+
+}
+
+.brands{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 15px 20px rgba(33, 40, 105, .2); 
+}
+
+.brands-1{
+    flex-basis:calc(25% - 25px) ;
+}
+
+.brands-1 p {
+    font-size: 25px;
+    line-height: 1;
+    font-weight: 600;
+    color: #000D83;
+    margin: 0;
+}
+
+.brands-1 img {
+    width: 150px;
+
+}
+
+.services{
+    padding: 100px 0;
+    text-align: center;
+
+}
+
+h2{
+    font-size: 40px;
+    line-height: 1;
+    color: #000D83;
+    margin-bottom:20px;
+}
+
+.services-content{
+    margin-top:40px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-1 {
+    flex-basis: calc(20% - 30px);
+    background: #fbfcfe;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(33,40,105,.2);
+    border-radius: 25px;
+    color: #000D83;
+}
+
+.services-1:hover{
+    background: #000D83;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.services-1 img {
+    width: 35px;
+    height: 35px;
+    margin-bottom:10px ;
+}
+
+.services-1 h3 {
+    font-size:20px;
+    line-height: 1.2;
+
+}
+.information {
+    padding: 50px 0 100px 0;
+    display: flex;
+    align-items: center;
+}
+
+.information-img{
+    flex-basis:50% ;
+}
+
+.information-txt{
+    flex-basis: 50%;
+    padding-left: 50px;
+}
+
+.about{
+    padding: 80px 0;
+    background: #eefaff;
+}
+
+.about-content{
+    display: flex;
+    align-items: center;
+}
+
+.about-txt{
+    flex-basis: 50%;
+    padding-right: 80px;
+}
+
+.about-img{
+    flex-basis: 50%;
+}
+
+.contac{
+    padding: 120px;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+input {
+    width: 300px;
+    padding: 17px;
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(33,40,105,.2);
+    margin-right: 20px;
 }
